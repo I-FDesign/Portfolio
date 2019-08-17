@@ -15,7 +15,7 @@
     <script src="https://use.fontawesome.com/2d83eb3d68.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Oswald|Roboto:400,900" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/styles.min.css">
     <link rel="stylesheet" href="styles/form.css">
     <link rel="stylesheet" href="styles/animate.css">
 </head>
