@@ -94,57 +94,57 @@
                 <h2>TRABAJOS RECIENTES</h2>
                 <div class="trabajos">
                     <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="img/thumb.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="img/projects/living.png" alt="Card image cap">
                         <div class="card-body">
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <p class="card-text">Aplicacion web donde podras escribir tus propias historias con diversos personajes, objetos, imagenes, etc.</p>
                         </div>
                         <div class="button">
-                            <a href="">Ver trabajo</a>
+                            <a target="_blank" href="https://livingwriter.com/">Ver trabajo</a>
                         </div>
                     </div>
                     <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="img/thumb.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="img/projects/army.png" alt="Card image cap">
                         <div class="card-body">
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <p class="card-text">Sitio E-commerce para la venta de componentes o artefactos relacionados con la tecnologia.</p>
                         </div>
                         <div class="button">
-                            <a href="">Ver trabajo</a>
+                            <a target="_blank" href="https://www.armytech.com.ar/">Ver trabajo</a>
                         </div>
                     </div>
                     <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="img/thumb.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="img/projects/sos.png" alt="Card image cap">
                         <div class="card-body">
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <p class="card-text">Sitio donde profesores y alumnos pueden interactuar mediante videollamas pagando una tarifa determinada.</p>
                         </div>
                         <div class="button">
-                            <a href="">Ver trabajo</a>
+                            <a target="_blank" href="https://sosmaestros.com.ar/">Ver trabajo</a>
                         </div>
                     </div>
                     <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="img/thumb.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="img/projects/abogados.png" alt="Card image cap">
                         <div class="card-body">
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <p class="card-text">Pagina realizada a medida para un grupo de abogados, con un diseño minimalista y algunas animaciones.</p>
                         </div>
                         <div class="button">
-                            <a href="">Ver trabajo</a>
+                            <a target="_blank" href="http://abogadosneuquen.com/">Ver trabajo</a>
                         </div>
                     </div>
                     <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="img/thumb.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="img/projects/harmonie.png" alt="Card image cap">
                         <div class="card-body">
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <p class="card-text">Sitio donde se podran ver los distintos servicios, habitaciones y paisajes que posee tanto el hotel como la ciudad.</p>
                         </div>
                         <div class="button">
-                            <a href="">Ver trabajo</a>
+                            <a target="_blank" href="http://hotelharmonie.com.ar/">Ver trabajo</a>
                         </div>
                     </div>
                     <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="img/thumb.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="img/projects/plastic.png" alt="Card image cap">
                         <div class="card-body">
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <p class="card-text">Un sitio donde se exponen noticias o información sobre cirujias plasticas de celebridades.</p>
                         </div>
                         <div class="button">
-                            <a href="">Ver trabajo</a>
+                            <a target="_blank" href="http://plasticsurgerypro.info/">Ver trabajo</a>
                         </div>
                     </div>
                 </div>
@@ -193,6 +193,13 @@
             <i class="fa fa-angle-double-up" aria-hidden="true"></i>
         </button>
     </div>
+
+    <?php if($submit): ?>
+        <div class="message">
+            <p>Correo enviado correctamente, sera contestado a la brevedad!</p>
+            <i id="close_message" class="fa fa-times" aria-hidden="true"></i>
+        </div>
+    <?php endif; ?>
 
     <script type="text/javascript" src='js/jquery-3.1.1.min.js'></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>

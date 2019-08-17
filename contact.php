@@ -38,9 +38,16 @@
         }
 
         if(empty($errors)){
-            echo 'si';
+            $enviar_a = 'ifdesing.contacto@gmail.com';
+            $asunto = 'Correo enviado desde ifdesign.tech';
+            $mensaje_preparado = "De: " . $name ."\n";
+            $mensaje_preparado .= "Correo:" . $email . "\n";
+            $mensaje_preparado .= "Numero:" . $phone . "\n";
+            $mensaje_preparado .= "Mensaje: " . $message;
+
+            mail($enviar_a, $asunto, $mensaje_preparado);
+            $submit = true;
         }
-        
 
     }
 

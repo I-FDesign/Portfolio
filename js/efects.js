@@ -124,5 +124,13 @@ $(document).ready(function(){
 		}, 500);
     })
 
+    //Message times button--------------
+
+    $('#close_message').on('click', function(){
+
+        $('.message').slideUp(300);
+
+    })
+
 
 });
